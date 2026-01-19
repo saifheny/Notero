@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notero App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+            <span>نوتيرو</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">الرئيسية</a></li>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#integration">التكامل</a></li>
+                <li><a href="#pricing">الأسعار</a></li>
+            </ul>
+        </nav>
+        <div class="header-btns">
+            <a href="#" class="btn btn-outline">تسجيل دخول</a>
+            <a href="#" class="btn btn-primary">تحميل التطبيق</a>
+        </div>
+        <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-left">
+            <div class="badge-pill">✨ تطبيق الملاحظات الأول</div>
+            <h1>نظم حياتك الرقمية<br><span>في مكان واحد</span></h1>
+            <p>اكتب، خطط، ونظم. تطبيق نوتيرو يمنحك الحرية لتدوين أفكارك ومزامنتها لحظياً مع جميع أجهزتك بأمان وتشفير كامل.</p>
+            
+            <div class="hero-cta">
+                <button class="btn btn-primary"><i class="fab fa-apple"></i> App Store</button>
+                <button class="btn btn-white"><i class="fab fa-google-play"></i> Google Play</button>
+            </div>
+            
+            <div class="hero-footer">
+                <span><i class="fa-solid fa-check-circle"></i> تجربة مجانية 14 يوم</span>
+                <span><i class="fa-solid fa-check-circle"></i> لا يتطلب بطاقة ائتمان</span>
+            </div>
+        </div>
+
+        <div class="hero-visual" data-aos="fade-right">
+            <div class="abstract-bg"></div>
+            <img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="App UI" class="main-phone">
+            
+            <div class="float-card card-1">
+                <div class="icon-sq purple"><i class="fa-solid fa-bell"></i></div>
+                <div>
+                    <h4>تذكير الاجتماع</h4>
+                    <p>10:00 صباحاً</p>
+                </div>
+            </div>
+
+            <div class="float-card card-2">
+                <div class="users-stack">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User">
+                </div>
+                <div>
+                    <h4>فريق العمل</h4>
+                    <p>نشط الآن</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="brands-section">
+        <p>موثوق من قبل فرق العمل في</p>
+        <div class="brands-grid">
+            <i class="fab fa-slack"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-spotify"></i>
+            <i class="fab fa-amazon"></i>
+            <i class="fab fa-dropbox"></i>
+        </div>
+    </div>
+
+    <section class="features" id="features">
+        <div class="section-header" data-aos="fade-up">
+            <h2>مميزات استثنائية</h2>
+            <p>أدوات قوية صممت خصيصاً لزيادة إنتاجيتك</p>
+        </div>
+
+        <div class="features-container">
+            <div class="feature-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="f-icon purple-bg"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>أمان وخصوصية</h3>
+                <p>بياناتك مشفرة ومحمية. يمكنك قفل الملاحظات الحساسة ببصمة الوجه.</p>
+            </div>
+
+            <div class="feature-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="f-icon pink-bg"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>تنظيم ذكي</h3>
+                <p>تصنيف تلقائي للملاحظات باستخدام الذكاء الاصطناعي والوسوم الذكية.</p>
+            </div>
+
+            <div class="feature-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="f-icon yellow-bg"><i class="fa-solid fa-users-viewfinder"></i></div>
+                <h3>تعاون مباشر</h3>
+                <p>شارك مساحات العمل مع فريقك واعملوا معاً على نفس المستند في آن واحد.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="showcase-visual" data-aos="zoom-in-left">
+            <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tablet Mode">
+        </div>
+        <div class="showcase-info" data-aos="fade-right">
+            <span class="tag">للمبدعين</span>
+            <h2>نوتيرو للمصممين والرسامين</h2>
+            <p>حول جهازك اللوحي إلى لوحة رسم احترافية. يدعم التطبيق جميع أنواع الأقلام الرقمية مع استجابة فائقة السرعة.</p>
+            <ul class="check-list">
+                <li><i class="fa-solid fa-check"></i> طبقات غير محدودة</li>
+                <li><i class="fa-solid fa-check"></i> تصدير بجودة عالية PSD, PDF</li>
+                <li><i class="fa-solid fa-check"></i> مكتبة فرش متنوعة</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="showcase reverse">
+        <div class="showcase-visual" data-aos="zoom-in-right">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Laptop Mode">
+        </div>
+        <div class="showcase-info" data-aos="fade-left">
+            <span class="tag dark">الوضع الليلي</span>
+            <h2>مريح لعينيك ليلاً</h2>
+            <p>استمتع بتجربة قراءة وكتابة مريحة في البيئات المظلمة مع الوضع الداكن الحقيقي الذي يوفر طاقة البطارية.</p>
+            <button class="btn btn-outline">اكتشف الثيمات</button>
+        </div>
+    </section>
+
+    <section class="integration" id="integration">
+        <div class="section-header" data-aos="fade-up">
+            <h2>تكامل مع تطبيقاتك</h2>
+            <p>اربط نوتيرو مع أكثر من 20 تطبيق لزيادة الفاعلية</p>
+        </div>
+        <div class="integration-circle" data-aos="zoom-in">
+            <div class="center-logo"><i class="fa-solid fa-bolt"></i></div>
+            <div class="orbit-icon i1"><i class="fab fa-google-drive"></i></div>
+            <div class="orbit-icon i2"><i class="fab fa-trello"></i></div>
+            <div class="orbit-icon i3"><i class="fab fa-slack"></i></div>
+            <div class="orbit-icon i4"><i class="fab fa-dropbox"></i></div>
+            <div class="orbit-icon i5"><i class="fas fa-calendar-alt"></i></div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="section-header" data-aos="fade-up">
+            <h2>اختر خطتك</h2>
+        </div>
+        
+        <div class="pricing-wrapper">
+            <div class="price-card" data-aos="flip-right">
+                <div class="p-header">
+                    <h3>الأساسية</h3>
+                    <div class="price">مجاناً</div>
+                    <p>للأفراد والاستخدام الشخصي</p>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 50 ملاحظة</li>
+                    <li><i class="fa-solid fa-check"></i> مساحة 500MB</li>
+                    <li><i class="fa-solid fa-check"></i> تزامن جهازين</li>
+                </ul>
+                <button class="btn btn-outline full-width">ابدأ الآن</button>
+            </div>
+
+            <div class="price-card popular" data-aos="flip-left">
+                <div class="pop-badge">الأكثر شيوعاً</div>
+                <div class="p-header">
+                    <h3>الاحترافية</h3>
+                    <div class="price">$9.99<span>/شهر</span></div>
+                    <p>للمحترفين وفرق العمل الصغيرة</p>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> ملاحظات غير محدودة</li>
+                    <li><i class="fa-solid fa-check"></i> مساحة 50GB</li>
+                    <li><i class="fa-solid fa-check"></i> تزامن غير محدود</li>
+                    <li><i class="fa-solid fa-check"></i> دعم فني 24/7</li>
+                </ul>
+                <button class="btn btn-primary full-width">اشترك الآن</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="section-header">
+            <h2>أسئلة شائعة</h2>
+        </div>
+        <div class="faq-container" data-aos="fade-up">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل التطبيق يدعم اللغة العربية؟</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>نعم، التطبيق يدعم اللغة العربية والاتجاه من اليمين لليسار بشكل كامل.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>هل يمكنني استرجاع أموالي؟</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>نعم، نقدم ضمان استرجاع الأموال خلال 14 يوماً من تاريخ الاشتراك.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>كيف يتم حفظ البيانات؟</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>يتم حفظ البيانات سحابياً على خوادم مشفرة وآمنة للغاية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner" data-aos="zoom-in">
+        <div class="cta-content">
+            <h2>جاهز لتغيير طريقة عملك؟</h2>
+            <p>انضم إلى أكثر من 200,000 مستخدم اليوم</p>
+            <div class="cta-btns">
+                <button class="btn btn-white text-primary">تحميل مجاني</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <span>نوتيرو</span>
+                </div>
+                <p>التطبيق المثالي لتدوين الملاحظات وإدارة المهام لفرق العمل والأفراد.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">عن التطبيق</a></li>
+                    <li><a href="#">المدونة</a></li>
+                    <li><a href="#">الوظائف</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>الدعم</h4>
+                <ul>
+                    <li><a href="#">مركز المساعدة</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">شروط الاستخدام</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>النشرة البريدية</h4>
+                <form class="newsletter">
+                    <input type="email" placeholder="بريدك الإلكتروني">
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 نوتيرو. جميع الحقوق محفوظة.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
